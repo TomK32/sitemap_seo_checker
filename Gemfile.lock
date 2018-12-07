@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    sitemap_seo_checker (0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ethon (0.11.0)
+      ffi (>= 1.3.0)
+    ffi (1.9.25)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.5)
+      mini_portile2 (~> 2.3.0)
+    sitemap-parser (0.4.0)
+      nokogiri (~> 1.6)
+      typhoeus (~> 0.6)
+    typhoeus (0.8.0)
+      ethon (>= 0.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  sitemap-parser
+  sitemap_seo_checker!
+
+BUNDLED WITH
+   1.16.4
